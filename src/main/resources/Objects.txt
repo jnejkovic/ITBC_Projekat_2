@@ -1,0 +1,49 @@
+#Excel path
+Users=src/main/resources/RandomUserData.xlsx
+Products=src/main/resources/Products.xlsx
+
+# Login objects path
+USERNAME=//input[@placeholder='Username']
+PasswordID=password
+LoginBTN=//input[@class='btn blue']
+MissingUserPass=//p[contains(text(),'Missing username or password.')]
+IncorrectUserPass=//p[contains(text(),'Incorrect username or password.')]
+
+# Registration objects locator
+SignUp=//a[contains(text(),'Sign up')]
+UserID=username
+EmailID=email
+PassID=password
+ConfirmPassID=confirm
+SubmitBTN=//input[@id='submit-button']
+AboutYouID=aboutyou
+Option1=//input[@id='website']
+RegUrl=https://sandbox.2checkout.com/sandbox/home/dashboard
+UserIcon=//div[@id='username_icon']
+EmailIcon=//div[@id='email_icon']
+PassIcon=//div[@id='password_icon']
+ConfPassIcon=//div[@id='confirm_icon']
+AboutYouError=//p[contains(text(),'Telling us about yourself is required.')]
+AccountAvatar=//div[@id='account-avatar']
+LogOutID=logout
+ConfirmLogin=confirm-login
+ProductsIcon=//a[contains(text(),'Products')]
+CreateProduct=//a[@class='context-btn add']
+ProductName=//input[@name='name']
+ProductID=//input[@name='vendor_product_id']
+ProductDescription=//input[@name='description']
+LongDescription=//textarea[@name='long_description']
+Price=//input[@name='price']
+ApprovedUrl=//input[@name='approved_url']
+SaveChanges=//input[@name='submit']  
+EditProduct=.context-btn.edit.left
+CurrentPrice=.right-align.total
+EditBTN=//a[contains(text(),'Edit')]
+SelectToDelete=product_id
+Delete=//input[@class='context-btn remove']
+ConfirmDeletion=//input[@name='submit']
+EditProduct1=//*[contains(@name,'price')]
+SaveProductChanges=//input[@class='context-btn save']
+
+
+
